@@ -1,0 +1,40 @@
+.container {
+    width: 800px;
+  }
+  .blog-content { /* 8:2 비율로(8) float: left 설정 */
+    width: 80%;
+    height: 200px;
+    float: left;
+  }
+  .blog-img { /* 8:2 비율로(2) float: right 설정 */
+    width: 20%;
+    height: 200px;
+    float: right;
+  }
+  .blog-profile {
+    width: 60px;
+    border-radius: 100px;
+    padding: 10px;
+    float: left; /* 프로필이 맨 왼쪽에 위치해야하므로 float: left */
+  }
+  .blog-name {
+      float: left; /* 프로필 옆에 이름이 위치해야하므로 float: left */
+  }
+
+  .name {
+    margin: 15px 0px 3px 0px;
+    font-size: 17px;
+  }
+  .time {
+    font-size: 14px;
+    color: grey;
+    margin: 5px 0px 3px 0px;
+  }
+  .title {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .content {
+    margin: 10px;
+    color: grey;
+  }

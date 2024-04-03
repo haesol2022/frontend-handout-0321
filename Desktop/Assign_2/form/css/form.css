@@ -1,0 +1,45 @@
+.form-background { /* item들이 중앙에 위치하도록 */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+}
+.form-white {
+    display: flex;
+    padding: 10px 40px 15px;
+    background-color: white;
+    width: 520px;
+    height: 520px;
+
+}
+.form-input {
+    width: 100%; /* width = 100% 설정해서 div 크기에 맞추도록*/
+    padding: 10px; /* input 굵기 설정 */
+    
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+.w-50 {
+  float:left; /* first name, last name 한 줄에 위치하도록 */
+  padding: 10px;
+}
+.w-100 {
+  padding: 10px;
+}
+.pink-button {
+  display: block;
+  margin-left: auto;
+  color: white;
+  background: palevioletred;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  width: 80px;
+}
