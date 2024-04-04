@@ -1,0 +1,31 @@
+
+.profile { /* class = 10점 */
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+.title {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'gulim';
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+
+p { /* tag = 1점 */
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'gulim';
+    letter-spacing: -1px;
+}
+
+#special { /* id = 100점 */
+    text-align: center;
+}
